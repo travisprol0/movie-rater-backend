@@ -29,7 +29,8 @@ class TitlesController < ApplicationController
     private
 
     def title_params
-        params.require(:title).permit( :actors,  :awards, :country,:director,  :genre,:language,:metascore,:plot,:poster,:rated,:released,:runtime,:name ,:type,:writer, :year,:imdbID,:imdbRating,:imdbVotes, :totalSeasons,:personalRatingNumber, :personalRatingComment, :episodes)
+        params.require(:title).permit( :actors,  :awards, :country,:director,  :genre,:language,:metascore,:plot,:poster,:rated,:released,:runtime,:name ,:type,:writer, :year,:imdbID,:imdbRating,:imdbVotes, :totalSeasons,:personalRatingNumber, :personalRatingComment)
+        
     end
 
 end

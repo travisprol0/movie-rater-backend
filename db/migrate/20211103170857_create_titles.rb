@@ -21,9 +21,6 @@ class CreateTitles < ActiveRecord::Migration[6.0]
       t.string :imdbRating
       t.string :imdbVotes
       t.string :totalSeasons
-      t.string :personalRatingNumber
-      t.string :personalRatingComment
-      t.string :episodes, array: true, default: '{}'
       t.timestamps
     end
   end

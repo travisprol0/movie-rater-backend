@@ -36,9 +36,6 @@ ActiveRecord::Schema.define(version: 2021_11_03_170857) do
     t.string "imdbRating"
     t.string "imdbVotes"
     t.string "totalSeasons"
-    t.string "personalRatingNumber"
-    t.string "personalRatingComment"
-    t.string "episodes", default: [], array: true
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
